@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import webFlix from "../../Assets/Projects/chatify.png";
+import chatify from "../../Assets/Projects/chatify.png";
 
 function Projects() {
   return (
@@ -19,7 +19,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={webFlix}
+              imgPath={chatify}
               isBlog={false}
               title="Webflix"
               description="My clone of Netflix"
