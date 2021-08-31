@@ -5,7 +5,6 @@ import Particle from "../Particle";
 
 import chatify from "../../Assets/Projects/chatify.png";
 
-
 function Projects() {
   return (
     <Container fluid className="project-section">
